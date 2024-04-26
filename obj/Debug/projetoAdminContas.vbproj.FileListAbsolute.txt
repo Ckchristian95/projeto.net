@@ -1,0 +1,14 @@
+D:\DOC\SI - atividade\projetoAdminContas\bin\Debug\projetoAdminContas.exe.config
+D:\DOC\SI - atividade\projetoAdminContas\bin\Debug\projetoAdminContas.exe
+D:\DOC\SI - atividade\projetoAdminContas\bin\Debug\projetoAdminContas.pdb
+D:\DOC\SI - atividade\projetoAdminContas\bin\Debug\projetoAdminContas.xml
+D:\DOC\SI - atividade\projetoAdminContas\obj\Debug\projetoAdminContas.vbproj.AssemblyReference.cache
+D:\DOC\SI - atividade\projetoAdminContas\obj\Debug\projetoAdminContas.vbproj.SuggestedBindingRedirects.cache
+D:\DOC\SI - atividade\projetoAdminContas\obj\Debug\projetoAdminContas.Resources.resources
+D:\DOC\SI - atividade\projetoAdminContas\obj\Debug\projetoAdminContas.vbproj.GenerateResource.cache
+D:\DOC\SI - atividade\projetoAdminContas\obj\Debug\projetoAdminContas.vbproj.CoreCompileInputs.cache
+D:\DOC\SI - atividade\projetoAdminContas\obj\Debug\projetoAdminContas.exe
+D:\DOC\SI - atividade\projetoAdminContas\obj\Debug\projetoAdminContas.xml
+D:\DOC\SI - atividade\projetoAdminContas\obj\Debug\projetoAdminContas.pdb
+D:\DOC\SI - atividade\projetoAdminContas\obj\Debug\projetoAdminContas.frm_login.resources
+D:\DOC\SI - atividade\projetoAdminContas\obj\Debug\projetoAdminContas.frm_cadastro.resources
