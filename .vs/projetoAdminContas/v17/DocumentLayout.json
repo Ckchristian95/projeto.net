@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "D:\\projetoAdminContas\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|D:\\projetoAdminContas\\frm_cadastro.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_cadastro.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|projetoAdminContas||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|d:\\projetoadmincontas\\frm_cadastro.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_cadastro.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|D:\\projetoAdminContas\\frm_login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|D:\\projetoAdminContas\\frm_cadastro.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_cadastro.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|projetoAdminContas||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|D:\\projetoAdminContas\\frm_login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
@@ -32,24 +32,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "frm_cadastro.vb",
               "DocumentMoniker": "D:\\projetoAdminContas\\frm_cadastro.vb",
               "RelativeDocumentMoniker": "frm_cadastro.vb",
               "ToolTip": "D:\\projetoAdminContas\\frm_cadastro.vb",
               "RelativeToolTip": "frm_cadastro.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAALAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-04-26T22:06:45.055Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "projetoAdminContas",
               "DocumentMoniker": "D:\\projetoAdminContas\\projetoAdminContas.vbproj",
               "RelativeDocumentMoniker": "projetoAdminContas.vbproj",
@@ -61,7 +61,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "frm_login.vb",
               "DocumentMoniker": "D:\\projetoAdminContas\\frm_login.vb",
               "RelativeDocumentMoniker": "frm_login.vb",
@@ -69,12 +69,11 @@
               "RelativeToolTip": "frm_login.vb",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-26T22:06:45.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T22:06:45.208Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "frm_cadastro.vb [Design]",
               "DocumentMoniker": "D:\\projetoAdminContas\\frm_cadastro.vb",
               "RelativeDocumentMoniker": "frm_cadastro.vb",
@@ -93,8 +92,7 @@
               "ToolTip": "D:\\projetoAdminContas\\frm_login.vb [Design]",
               "RelativeToolTip": "frm_login.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-26T22:06:46.04Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-26T22:06:46.04Z"
             }
           ]
         }

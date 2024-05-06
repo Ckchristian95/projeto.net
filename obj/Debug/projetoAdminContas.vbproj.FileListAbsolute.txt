@@ -12,3 +12,18 @@ D:\DOC\SI - atividade\projetoAdminContas\obj\Debug\projetoAdminContas.xml
 D:\DOC\SI - atividade\projetoAdminContas\obj\Debug\projetoAdminContas.pdb
 D:\DOC\SI - atividade\projetoAdminContas\obj\Debug\projetoAdminContas.frm_login.resources
 D:\DOC\SI - atividade\projetoAdminContas\obj\Debug\projetoAdminContas.frm_cadastro.resources
+C:\Users\aluno\Desktop\Projeto verão\projeto.net\bin\Debug\projetoAdminContas.exe.config
+C:\Users\aluno\Desktop\Projeto verão\projeto.net\bin\Debug\projetoAdminContas.exe
+C:\Users\aluno\Desktop\Projeto verão\projeto.net\bin\Debug\projetoAdminContas.pdb
+C:\Users\aluno\Desktop\Projeto verão\projeto.net\bin\Debug\projetoAdminContas.xml
+C:\Users\aluno\Desktop\Projeto verão\projeto.net\obj\Debug\projetoAdminContas.vbproj.AssemblyReference.cache
+C:\Users\aluno\Desktop\Projeto verão\projeto.net\obj\Debug\projetoAdminContas.vbproj.SuggestedBindingRedirects.cache
+C:\Users\aluno\Desktop\Projeto verão\projeto.net\obj\Debug\projetoAdminContas.frm_cadastro.resources
+C:\Users\aluno\Desktop\Projeto verão\projeto.net\obj\Debug\projetoAdminContas.frm_login.resources
+C:\Users\aluno\Desktop\Projeto verão\projeto.net\obj\Debug\projetoAdminContas.Resources.resources
+C:\Users\aluno\Desktop\Projeto verão\projeto.net\obj\Debug\projetoAdminContas.vbproj.GenerateResource.cache
+C:\Users\aluno\Desktop\Projeto verão\projeto.net\obj\Debug\projetoAdminContas.vbproj.CoreCompileInputs.cache
+C:\Users\aluno\Desktop\Projeto verão\projeto.net\obj\Debug\projetoAdminContas.exe
+C:\Users\aluno\Desktop\Projeto verão\projeto.net\obj\Debug\projetoAdminContas.xml
+C:\Users\aluno\Desktop\Projeto verão\projeto.net\obj\Debug\projetoAdminContas.pdb
+C:\Users\aluno\Desktop\Projeto verão\projeto.net\obj\Debug\projetoAdminContas.frm_menu_admin.resources
