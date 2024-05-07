@@ -5,7 +5,7 @@
             Me.center_panel.Controls(0).Dispose()
         End While
 
-        Dim nf As New frm_cadastro With {.TopMost = False, .AutoSize = False}
+        Dim nf As New frm_cadastro With {.TopMost = False, .AutoSize = True}
         nf.TopLevel = False
         nf.Dock = DockStyle.Fill
         Me.center_panel.Controls.Add(nf)

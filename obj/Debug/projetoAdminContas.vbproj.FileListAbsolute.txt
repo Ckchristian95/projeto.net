@@ -27,3 +27,19 @@ C:\Users\aluno\Desktop\Projeto verão\projeto.net\obj\Debug\projetoAdminContas.e
 C:\Users\aluno\Desktop\Projeto verão\projeto.net\obj\Debug\projetoAdminContas.xml
 C:\Users\aluno\Desktop\Projeto verão\projeto.net\obj\Debug\projetoAdminContas.pdb
 C:\Users\aluno\Desktop\Projeto verão\projeto.net\obj\Debug\projetoAdminContas.frm_menu_admin.resources
+D:\projetoAdminContas\bin\Debug\projetoAdminContas.exe.config
+D:\projetoAdminContas\bin\Debug\projetoAdminContas.exe
+D:\projetoAdminContas\bin\Debug\projetoAdminContas.pdb
+D:\projetoAdminContas\bin\Debug\projetoAdminContas.xml
+D:\projetoAdminContas\obj\Debug\projetoAdminContas.vbproj.AssemblyReference.cache
+D:\projetoAdminContas\obj\Debug\Interop.ADODB.dll
+D:\projetoAdminContas\obj\Debug\projetoAdminContas.vbproj.ResolveComReference.cache
+D:\projetoAdminContas\obj\Debug\projetoAdminContas.frm_cadastro.resources
+D:\projetoAdminContas\obj\Debug\projetoAdminContas.frm_login.resources
+D:\projetoAdminContas\obj\Debug\projetoAdminContas.frm_menu_admin.resources
+D:\projetoAdminContas\obj\Debug\projetoAdminContas.Resources.resources
+D:\projetoAdminContas\obj\Debug\projetoAdminContas.vbproj.GenerateResource.cache
+D:\projetoAdminContas\obj\Debug\projetoAdminContas.vbproj.CoreCompileInputs.cache
+D:\projetoAdminContas\obj\Debug\projetoAdminContas.exe
+D:\projetoAdminContas\obj\Debug\projetoAdminContas.xml
+D:\projetoAdminContas\obj\Debug\projetoAdminContas.pdb
