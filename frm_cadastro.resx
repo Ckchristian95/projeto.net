@@ -120,7 +120,13 @@
   <metadata name="dgv_id.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="dgv_usuario.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="dgv_nome.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgv_cpf.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="dgv_cargo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -135,23 +141,33 @@
   <metadata name="dgv_status.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="ToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>992, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="ToolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
-        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
-        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
-        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
-        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
-        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
-        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
-        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
-        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
-        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAO/SURBVFhH5ZddTFNnHMZPXOKF98OPyRSiiSFkKkSgaKIX
+        iqC92E0v9EKTJWYumYtmJl540aR6oZQQLcqpBWylVJMZlRE6XVA2GE5tG7SWjxIiUtoCLW3pB5SWII/v
+        eXtagj0BbaG72D95cvqR839+fd7/ad6XyZNK15Y0Wc8VXG9ni6v+YF2BEBuNRlNSJBJhLz0xszsrW9k9
+        ylfy4obuCkYqXcMsVSKdlS3VDYAAYFelHqHwDGZnZ6F+MYhjmn8ScvpC9PPlJHtspn2KVEZwfUW6AVOR
+        oiOHt0suUZP1nRDAlTYLfR/XsCeQZCakTwEoBPH4Tv5nFm+5uEqbBt6vNgAvQ6G0ZR1vu1AZBOCSaGEk
+        v33FW8cqkwCcyExU89axyjRAqc76Ydf1zjzePhnA4Q3SRlMzEfinwglFotEkMyH9+si0DABdikrePhng
+        hLYLzeZhtFpGvlg1f/ehQB5LbCkAkkIHb78AUKj4i964UiqqMwkYxyRqGjDy9gsAxWozCq49w+7qtrRV
+        WNMBkbZf0JyTIEAm9f8FkNR2Yp+2778BuCDTwllejs4TP+HYjfbMAhz/fRD9Z85i5OBBOA4fhv3I0Wm7
+        WPxjRgD26vpheFoF7+g7OFQq2DiAsjKMkjTGKyo0qw5QfVeOQON2jGp2Y/xtMyZMJthPnoylUVb2JAFQ
+        fn8Q7OsJqC2eFZPm+Ut4tflwqb6F4+ZGvL/2NUb0v2DCPgSXQhHuOHQoJwHweCiAlaz5uSim9d9jon4L
+        xpSbMVKznop7PVS/Bw7Ls/OLZsAwNhW7cX4eZH+XtiLdcnhv51DD8VubYVNkkWs2nLUb0XbjQB815+pT
+        ALKxhM1mS0v2Ny3waci6s9+QBLbS+GMg2ei5uQPl2n+TH8M4QLo1PxtC8MEBauhp2Ap33ZYEiJNcz6gb
+        hP+I4gBzc3MIBoMpa9qsJEOXTX+t/842evXezqWDaHj4M30ylgTgNhUulytlRckS+ruVCN3bSRLIgU+d
+        S2fBfXcvesc8ywOkU9wAcwlyQzg93oPJZjFNwV2fi+iYEf2emc9LwO12pySv15sACIfDCAUmMfn8MkLG
+        Ktr7swC4Bn6/PyUZjUbIZDI4nU4KwAH5fD7akytBAJHWumJLoNfrkZ+fD7FYvMg4XnEAchZdACi500uP
+        Zq3sUQwrNqSlmlPZuCjZhLdXswS/b6/dH0ug0fKKtycJ1BlYUWMvftDcx1l13arqlOYeMe9BieqljLdn
+        mDwJOZ6zXedEt16wmVCJsus0I5HwxzOG+Qg66lHZVt8fjQAAAABJRU5ErkJggg==
 </value>
   </data>
   <metadata name="ToolStrip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
