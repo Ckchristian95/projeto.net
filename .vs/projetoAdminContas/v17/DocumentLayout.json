@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\projetoAdminContas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|D:\\projetoAdminContas\\frm_menu_admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|D:\\projetoAdminContas\\frm_menu_admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_menu_admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|d:\\projetoadmincontas\\frm_menu_admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_menu_admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|D:\\projetoAdminContas\\frm_cadastro.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_cadastro.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|d:\\projetoadmincontas\\frm_menu_admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_menu_admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|D:\\projetoAdminContas\\frm_cadastro.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
@@ -33,24 +33,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "frm_menu_admin.vb",
               "DocumentMoniker": "D:\\projetoAdminContas\\frm_menu_admin.vb",
               "RelativeDocumentMoniker": "frm_menu_admin.vb",
               "ToolTip": "D:\\projetoAdminContas\\frm_menu_admin.vb",
               "RelativeToolTip": "frm_menu_admin.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-05-15T13:01:20.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "frm_cadastro.vb",
               "DocumentMoniker": "D:\\projetoAdminContas\\frm_cadastro.vb",
               "RelativeDocumentMoniker": "frm_cadastro.vb",
@@ -58,12 +58,11 @@
               "RelativeToolTip": "frm_cadastro.vb",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAGIAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-07T22:35:59.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T22:35:59.277Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "frm_menu_admin.vb [Design]",
               "DocumentMoniker": "D:\\projetoAdminContas\\frm_menu_admin.vb",
               "RelativeDocumentMoniker": "frm_menu_admin.vb",
@@ -82,8 +81,7 @@
               "ToolTip": "D:\\projetoAdminContas\\frm_cadastro.vb [Design]",
               "RelativeToolTip": "frm_cadastro.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-26T22:06:46.029Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-26T22:06:46.029Z"
             },
             {
               "$type": "Document",
