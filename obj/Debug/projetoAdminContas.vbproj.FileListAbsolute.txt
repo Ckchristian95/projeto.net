@@ -75,3 +75,4 @@ C:\Users\chris\Desktop\ProjetoFinal.1.1\obj\Debug\projetoAdminContas.vbproj.Core
 C:\Users\chris\Desktop\ProjetoFinal.1.1\obj\Debug\projetoAdminContas.exe
 C:\Users\chris\Desktop\ProjetoFinal.1.1\obj\Debug\projetoAdminContas.xml
 C:\Users\chris\Desktop\ProjetoFinal.1.1\obj\Debug\projetoAdminContas.pdb
+D:\projetoAdminContas\obj\Debug\projetoAdminContas.frm_cadastro_clientes.resources
