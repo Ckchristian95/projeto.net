@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\projetoAdminContas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|D:\\projetoAdminContas\\frm_cadastro.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|D:\\projetoAdminContas\\frm_cadastro_clientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_cadastro_clientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|d:\\projetoadmincontas\\frm_cadastro.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_cadastro.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|d:\\projetoadmincontas\\frm_cadastro_produtos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|D:\\projetoAdminContas\\frm_cadastro_produtos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_cadastro_produtos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|D:\\projetoAdminContas\\frm_cadastro_clientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_cadastro_clientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|D:\\projetoAdminContas\\frm_cadastro.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
@@ -26,40 +26,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "frm_cadastro_produtos.vb [Design]",
               "DocumentMoniker": "D:\\projetoAdminContas\\frm_cadastro_produtos.vb",
               "RelativeDocumentMoniker": "frm_cadastro_produtos.vb",
               "ToolTip": "D:\\projetoAdminContas\\frm_cadastro_produtos.vb [Design]",
               "RelativeToolTip": "frm_cadastro_produtos.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-20T20:29:34.635Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frm_cadastro_clientes.vb [Design]",
-              "DocumentMoniker": "D:\\projetoAdminContas\\frm_cadastro_clientes.vb",
-              "RelativeDocumentMoniker": "frm_cadastro_clientes.vb",
-              "ToolTip": "D:\\projetoAdminContas\\frm_cadastro_clientes.vb [Design]",
-              "RelativeToolTip": "frm_cadastro_clientes.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-20T19:06:16.794Z"
+              "WhenOpened": "2024-05-20T20:29:34.635Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "frm_cadastro_clientes.vb [Design]",
+              "DocumentMoniker": "D:\\projetoAdminContas\\frm_cadastro_clientes.vb",
+              "RelativeDocumentMoniker": "frm_cadastro_clientes.vb",
+              "ToolTip": "D:\\projetoAdminContas\\frm_cadastro_clientes.vb [Design]*",
+              "RelativeToolTip": "frm_cadastro_clientes.vb [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-20T19:06:16.794Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "frm_cadastro.vb",
               "DocumentMoniker": "D:\\projetoAdminContas\\frm_cadastro.vb",
               "RelativeDocumentMoniker": "frm_cadastro.vb",
-              "ToolTip": "D:\\projetoAdminContas\\frm_cadastro.vb*",
-              "RelativeToolTip": "frm_cadastro.vb*",
-              "ViewState": "AQIAAGIAAAAAAAAAAAAAAGIAAAAcAAAA",
+              "ToolTip": "D:\\projetoAdminContas\\frm_cadastro.vb",
+              "RelativeToolTip": "frm_cadastro.vb",
+              "ViewState": "AQIAACsAAAAAAAAAAAAUwGIAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-05-07T22:35:59.277Z",
               "EditorCaption": ""
@@ -73,8 +73,7 @@
               "ToolTip": "D:\\projetoAdminContas\\frm_cadastro.vb [Design]*",
               "RelativeToolTip": "frm_cadastro.vb [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-26T22:06:46.029Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-26T22:06:46.029Z"
             }
           ]
         }
