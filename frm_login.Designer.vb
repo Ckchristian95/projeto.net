@@ -36,10 +36,10 @@ Partial Class frm_login
         Me.btn_entrar.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.btn_entrar.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_entrar.ForeColor = System.Drawing.SystemColors.Desktop
-        Me.btn_entrar.Location = New System.Drawing.Point(300, 250)
+        Me.btn_entrar.Location = New System.Drawing.Point(200, 162)
         Me.btn_entrar.Margin = New System.Windows.Forms.Padding(0)
         Me.btn_entrar.Name = "btn_entrar"
-        Me.btn_entrar.Size = New System.Drawing.Size(161, 63)
+        Me.btn_entrar.Size = New System.Drawing.Size(107, 41)
         Me.btn_entrar.TabIndex = 0
         Me.btn_entrar.Text = "Entrar"
         Me.btn_entrar.UseVisualStyleBackColor = False
@@ -48,26 +48,29 @@ Partial Class frm_login
         '
         Me.txt_senha.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txt_senha.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_senha.Location = New System.Drawing.Point(150, 154)
+        Me.txt_senha.Location = New System.Drawing.Point(100, 100)
+        Me.txt_senha.Margin = New System.Windows.Forms.Padding(2)
         Me.txt_senha.Name = "txt_senha"
-        Me.txt_senha.Size = New System.Drawing.Size(259, 28)
+        Me.txt_senha.Size = New System.Drawing.Size(173, 19)
         Me.txt_senha.TabIndex = 1
         Me.txt_senha.UseSystemPasswordChar = True
         '
         'txt_usuario
         '
-        Me.txt_usuario.Location = New System.Drawing.Point(150, 80)
+        Me.txt_usuario.Location = New System.Drawing.Point(100, 52)
+        Me.txt_usuario.Margin = New System.Windows.Forms.Padding(2)
         Me.txt_usuario.Name = "txt_usuario"
-        Me.txt_usuario.Size = New System.Drawing.Size(248, 26)
+        Me.txt_usuario.Size = New System.Drawing.Size(167, 20)
         Me.txt_usuario.TabIndex = 2
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(150, 122)
+        Me.Label1.Location = New System.Drawing.Point(100, 79)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(87, 29)
+        Me.Label1.Size = New System.Drawing.Size(61, 20)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Senha"
         '
@@ -75,9 +78,10 @@ Partial Class frm_login
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(150, 48)
+        Me.Label2.Location = New System.Drawing.Point(100, 31)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(213, 29)
+        Me.Label2.Size = New System.Drawing.Size(144, 20)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "Nome de usuário"
         '
@@ -85,9 +89,10 @@ Partial Class frm_login
         '
         Me.visualizar_senha.AutoSize = True
         Me.visualizar_senha.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.visualizar_senha.Location = New System.Drawing.Point(150, 188)
+        Me.visualizar_senha.Location = New System.Drawing.Point(100, 122)
+        Me.visualizar_senha.Margin = New System.Windows.Forms.Padding(2)
         Me.visualizar_senha.Name = "visualizar_senha"
-        Me.visualizar_senha.Size = New System.Drawing.Size(167, 24)
+        Me.visualizar_senha.Size = New System.Drawing.Size(118, 17)
         Me.visualizar_senha.TabIndex = 5
         Me.visualizar_senha.Text = "Visualizar senha"
         Me.visualizar_senha.UseVisualStyleBackColor = True
@@ -97,20 +102,20 @@ Partial Class frm_login
         Me.btn_sair.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.btn_sair.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_sair.ForeColor = System.Drawing.SystemColors.Desktop
-        Me.btn_sair.Location = New System.Drawing.Point(88, 250)
+        Me.btn_sair.Location = New System.Drawing.Point(59, 162)
         Me.btn_sair.Margin = New System.Windows.Forms.Padding(0)
         Me.btn_sair.Name = "btn_sair"
-        Me.btn_sair.Size = New System.Drawing.Size(161, 63)
+        Me.btn_sair.Size = New System.Drawing.Size(107, 41)
         Me.btn_sair.TabIndex = 6
         Me.btn_sair.Text = "Sair"
         Me.btn_sair.UseVisualStyleBackColor = False
         '
         'frm_login
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Highlight
-        Me.ClientSize = New System.Drawing.Size(571, 361)
+        Me.ClientSize = New System.Drawing.Size(381, 235)
         Me.Controls.Add(Me.btn_sair)
         Me.Controls.Add(Me.visualizar_senha)
         Me.Controls.Add(Me.Label2)
@@ -120,6 +125,7 @@ Partial Class frm_login
         Me.Controls.Add(Me.btn_entrar)
         Me.Cursor = System.Windows.Forms.Cursors.Hand
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "frm_login"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
