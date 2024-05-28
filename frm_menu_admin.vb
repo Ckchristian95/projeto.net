@@ -61,6 +61,63 @@
 
     Private Sub frm_menu_admin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         conectar_banco()
+        btn_pedidos.Enabled = False
+        btn_pedir.Enabled = False
+        btn_cadastrar_cliente.Enabled = False
+        btn_estoque.Enabled = False
+        btn_cadastrar_produto.Enabled = False
+        btn_cadastro_funcionario.Enabled = False
+        btn_relatorio.Enabled = False
+        btn_logoff.Enabled = False
+
 
     End Sub
+
+    Private Sub btn_login_Click(sender As Object, e As EventArgs) Handles btn_login.Click
+        frm_login.ShowDialog()
+    End Sub
+
+    Private Sub btn_logoff_Click(sender As Object, e As EventArgs) Handles btn_logoff.Click
+
+        btn_pedidos.Enabled = False
+        btn_pedir.Enabled = False
+        btn_cadastrar_cliente.Enabled = False
+        btn_estoque.Enabled = False
+        btn_cadastrar_produto.Enabled = False
+        btn_cadastro_funcionario.Enabled = False
+        btn_relatorio.Enabled = False
+        btn_logoff.Enabled = False
+        btn_login.Enabled = True
+
+
+    End Sub
+
+    Private Sub btn_cadastrar_produto_Click(sender As Object, e As EventArgs) Handles btn_cadastrar_produto.Click
+        While Me.center_panel.Controls.Count > 0
+            Me.center_panel.Controls(0).Dispose()
+
+        End While
+
+        Dim nf As New frm_cadastro_produtos With {.TopMost = False, .AutoSize = True}
+        nf.TopLevel = False
+        nf.Dock = DockStyle.Fill
+        Me.center_panel.Controls.Add(nf)
+        nf.Show()
+
+    End Sub
+
+    Private Sub btn_cadastrar_cliente_Click(sender As Object, e As EventArgs) Handles btn_cadastrar_cliente.Click
+        While Me.center_panel.Controls.Count > 0
+            Me.center_panel.Controls(0).Dispose()
+
+        End While
+
+        Dim nf As New frm_cadastro_clientes With {.TopMost = False, .AutoSize = True}
+        nf.TopLevel = False
+        nf.Dock = DockStyle.Fill
+        Me.center_panel.Controls.Add(nf)
+        nf.Show()
+    End Sub
+
+
 End Class
