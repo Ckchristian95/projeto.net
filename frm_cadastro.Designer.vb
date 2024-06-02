@@ -31,8 +31,6 @@ Partial Class frm_cadastro
         Me.dgv_cargo = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgv_editar = New System.Windows.Forms.DataGridViewButtonColumn()
         Me.dgv_excluir = New System.Windows.Forms.DataGridViewButtonColumn()
-        Me.dgv_status = New System.Windows.Forms.DataGridViewButtonColumn()
-        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txt_nome = New System.Windows.Forms.TextBox()
@@ -50,6 +48,10 @@ Partial Class frm_cadastro
         Me.Label8 = New System.Windows.Forms.Label()
         Me.txt_endereco = New System.Windows.Forms.TextBox()
         Me.gb_1 = New System.Windows.Forms.GroupBox()
+        Me.txt_ultimo_login = New System.Windows.Forms.TextBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.txt_status = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
@@ -63,28 +65,18 @@ Partial Class frm_cadastro
         Me.PrintDocument3 = New System.Drawing.Printing.PrintDocument()
         Me.PrintDocument4 = New System.Drawing.Printing.PrintDocument()
         Me.PrintDocument5 = New System.Drawing.Printing.PrintDocument()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.txt_senha_login = New System.Windows.Forms.MaskedTextBox()
-        Me.Senha = New System.Windows.Forms.Label()
-        Me.Usuario = New System.Windows.Forms.Label()
-        Me.txt_usuario = New System.Windows.Forms.TextBox()
-        Me.btn_sair = New System.Windows.Forms.Button()
-        Me.btn_entrar = New System.Windows.Forms.Button()
-        Me.chk_box = New System.Windows.Forms.CheckBox()
         CType(Me.dgv_dados, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.gb_1.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.ToolStrip2.SuspendLayout()
-        Me.GroupBox3.SuspendLayout()
         Me.SuspendLayout()
         '
         'dgv_dados
         '
         Me.dgv_dados.AllowUserToAddRows = False
         Me.dgv_dados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgv_dados.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgv_id, Me.dgv_usuario, Me.dgv_nome, Me.dgv_cpf, Me.dgv_cargo, Me.dgv_editar, Me.dgv_excluir, Me.dgv_status, Me.Column1})
-        Me.dgv_dados.Enabled = False
+        Me.dgv_dados.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgv_id, Me.dgv_usuario, Me.dgv_nome, Me.dgv_cpf, Me.dgv_cargo, Me.dgv_editar, Me.dgv_excluir})
         Me.dgv_dados.Location = New System.Drawing.Point(4, 45)
         Me.dgv_dados.Margin = New System.Windows.Forms.Padding(2)
         Me.dgv_dados.Name = "dgv_dados"
@@ -98,30 +90,37 @@ Partial Class frm_cadastro
         Me.dgv_id.HeaderText = "ID"
         Me.dgv_id.MinimumWidth = 8
         Me.dgv_id.Name = "dgv_id"
+        Me.dgv_id.ReadOnly = True
         Me.dgv_id.Width = 50
         '
         'dgv_usuario
         '
         Me.dgv_usuario.HeaderText = "USUÁRIO"
+        Me.dgv_usuario.MinimumWidth = 20
         Me.dgv_usuario.Name = "dgv_usuario"
+        Me.dgv_usuario.ReadOnly = True
         '
         'dgv_nome
         '
         Me.dgv_nome.HeaderText = "NOME"
-        Me.dgv_nome.MinimumWidth = 8
+        Me.dgv_nome.MinimumWidth = 20
         Me.dgv_nome.Name = "dgv_nome"
+        Me.dgv_nome.ReadOnly = True
         Me.dgv_nome.Width = 150
         '
         'dgv_cpf
         '
         Me.dgv_cpf.HeaderText = "CPF"
+        Me.dgv_cpf.MinimumWidth = 15
         Me.dgv_cpf.Name = "dgv_cpf"
+        Me.dgv_cpf.ReadOnly = True
         '
         'dgv_cargo
         '
         Me.dgv_cargo.HeaderText = "CARGO"
-        Me.dgv_cargo.MinimumWidth = 8
+        Me.dgv_cargo.MinimumWidth = 15
         Me.dgv_cargo.Name = "dgv_cargo"
+        Me.dgv_cargo.ReadOnly = True
         Me.dgv_cargo.Width = 150
         '
         'dgv_editar
@@ -137,20 +136,6 @@ Partial Class frm_cadastro
         Me.dgv_excluir.MinimumWidth = 8
         Me.dgv_excluir.Name = "dgv_excluir"
         Me.dgv_excluir.Width = 120
-        '
-        'dgv_status
-        '
-        Me.dgv_status.HeaderText = "STATUS"
-        Me.dgv_status.MinimumWidth = 8
-        Me.dgv_status.Name = "dgv_status"
-        Me.dgv_status.Text = ""
-        Me.dgv_status.UseColumnTextForButtonValue = True
-        Me.dgv_status.Width = 120
-        '
-        'Column1
-        '
-        Me.Column1.HeaderText = ""
-        Me.Column1.Name = "Column1"
         '
         'Label1
         '
@@ -248,7 +233,7 @@ Partial Class frm_cadastro
         Me.txt_cpf.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt_cpf.Location = New System.Drawing.Point(27, 62)
         Me.txt_cpf.Margin = New System.Windows.Forms.Padding(2)
-        Me.txt_cpf.Mask = "999.999.999-99"
+        Me.txt_cpf.Mask = "999,999,999-99"
         Me.txt_cpf.Name = "txt_cpf"
         Me.txt_cpf.Size = New System.Drawing.Size(109, 24)
         Me.txt_cpf.TabIndex = 1
@@ -316,6 +301,10 @@ Partial Class frm_cadastro
         '
         'gb_1
         '
+        Me.gb_1.Controls.Add(Me.txt_ultimo_login)
+        Me.gb_1.Controls.Add(Me.Label10)
+        Me.gb_1.Controls.Add(Me.txt_status)
+        Me.gb_1.Controls.Add(Me.Label9)
         Me.gb_1.Controls.Add(Me.ToolStrip1)
         Me.gb_1.Controls.Add(Me.Label8)
         Me.gb_1.Controls.Add(Me.Label1)
@@ -333,9 +322,8 @@ Partial Class frm_cadastro
         Me.gb_1.Controls.Add(Me.txt_cpf)
         Me.gb_1.Controls.Add(Me.txt_senha)
         Me.gb_1.Controls.Add(Me.Label5)
-        Me.gb_1.Enabled = False
         Me.gb_1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.gb_1.Location = New System.Drawing.Point(51, 11)
+        Me.gb_1.Location = New System.Drawing.Point(247, 11)
         Me.gb_1.Margin = New System.Windows.Forms.Padding(2)
         Me.gb_1.Name = "gb_1"
         Me.gb_1.Padding = New System.Windows.Forms.Padding(2)
@@ -343,6 +331,49 @@ Partial Class frm_cadastro
         Me.gb_1.TabIndex = 20
         Me.gb_1.TabStop = False
         Me.gb_1.Text = "CADASTRO DE FUNCIONÁRIO"
+        '
+        'txt_ultimo_login
+        '
+        Me.txt_ultimo_login.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_ultimo_login.Location = New System.Drawing.Point(409, 62)
+        Me.txt_ultimo_login.Margin = New System.Windows.Forms.Padding(2)
+        Me.txt_ultimo_login.Name = "txt_ultimo_login"
+        Me.txt_ultimo_login.ReadOnly = True
+        Me.txt_ultimo_login.Size = New System.Drawing.Size(133, 24)
+        Me.txt_ultimo_login.TabIndex = 23
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(407, 47)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(96, 13)
+        Me.Label10.TabIndex = 24
+        Me.Label10.Text = "ULTIMO LOGIN"
+        '
+        'txt_status
+        '
+        Me.txt_status.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_status.Location = New System.Drawing.Point(408, 140)
+        Me.txt_status.Margin = New System.Windows.Forms.Padding(2)
+        Me.txt_status.Name = "txt_status"
+        Me.txt_status.ReadOnly = True
+        Me.txt_status.Size = New System.Drawing.Size(134, 24)
+        Me.txt_status.TabIndex = 21
+        Me.txt_status.Text = "ATIVADO"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(406, 125)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(56, 13)
+        Me.Label9.TabIndex = 22
+        Me.Label9.Text = "STATUS"
         '
         'ToolStrip1
         '
@@ -410,92 +441,12 @@ Partial Class frm_cadastro
         Me.cmb_tipo.Name = "cmb_tipo"
         Me.cmb_tipo.Size = New System.Drawing.Size(82, 25)
         '
-        'GroupBox3
-        '
-        Me.GroupBox3.Controls.Add(Me.txt_senha_login)
-        Me.GroupBox3.Controls.Add(Me.Senha)
-        Me.GroupBox3.Controls.Add(Me.Usuario)
-        Me.GroupBox3.Controls.Add(Me.txt_usuario)
-        Me.GroupBox3.Controls.Add(Me.btn_sair)
-        Me.GroupBox3.Controls.Add(Me.btn_entrar)
-        Me.GroupBox3.Controls.Add(Me.chk_box)
-        Me.GroupBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox3.Location = New System.Drawing.Point(744, 12)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(222, 228)
-        Me.GroupBox3.TabIndex = 22
-        Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "LOGIN"
-        '
-        'txt_senha_login
-        '
-        Me.txt_senha_login.Location = New System.Drawing.Point(37, 91)
-        Me.txt_senha_login.Name = "txt_senha_login"
-        Me.txt_senha_login.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txt_senha_login.Size = New System.Drawing.Size(164, 22)
-        Me.txt_senha_login.TabIndex = 7
-        '
-        'Senha
-        '
-        Me.Senha.AutoSize = True
-        Me.Senha.Location = New System.Drawing.Point(37, 72)
-        Me.Senha.Name = "Senha"
-        Me.Senha.Size = New System.Drawing.Size(51, 16)
-        Me.Senha.TabIndex = 6
-        Me.Senha.Text = "Senha"
-        '
-        'Usuario
-        '
-        Me.Usuario.AutoSize = True
-        Me.Usuario.Location = New System.Drawing.Point(37, 22)
-        Me.Usuario.Name = "Usuario"
-        Me.Usuario.Size = New System.Drawing.Size(61, 16)
-        Me.Usuario.TabIndex = 4
-        Me.Usuario.Text = "Usuário"
-        '
-        'txt_usuario
-        '
-        Me.txt_usuario.Location = New System.Drawing.Point(37, 41)
-        Me.txt_usuario.Name = "txt_usuario"
-        Me.txt_usuario.Size = New System.Drawing.Size(164, 22)
-        Me.txt_usuario.TabIndex = 3
-        '
-        'btn_sair
-        '
-        Me.btn_sair.Enabled = False
-        Me.btn_sair.Location = New System.Drawing.Point(126, 166)
-        Me.btn_sair.Name = "btn_sair"
-        Me.btn_sair.Size = New System.Drawing.Size(75, 23)
-        Me.btn_sair.TabIndex = 2
-        Me.btn_sair.Text = "Sair"
-        Me.btn_sair.UseVisualStyleBackColor = True
-        '
-        'btn_entrar
-        '
-        Me.btn_entrar.Location = New System.Drawing.Point(34, 166)
-        Me.btn_entrar.Name = "btn_entrar"
-        Me.btn_entrar.Size = New System.Drawing.Size(75, 23)
-        Me.btn_entrar.TabIndex = 1
-        Me.btn_entrar.Text = "Entrar"
-        Me.btn_entrar.UseVisualStyleBackColor = True
-        '
-        'chk_box
-        '
-        Me.chk_box.AutoSize = True
-        Me.chk_box.Location = New System.Drawing.Point(34, 124)
-        Me.chk_box.Name = "chk_box"
-        Me.chk_box.Size = New System.Drawing.Size(139, 20)
-        Me.chk_box.TabIndex = 0
-        Me.chk_box.Text = "Vizualizar senha"
-        Me.chk_box.UseVisualStyleBackColor = True
-        '
         'frm_cadastro
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1034, 606)
-        Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.gb_1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -512,8 +463,6 @@ Partial Class frm_cadastro
         Me.GroupBox2.PerformLayout()
         Me.ToolStrip2.ResumeLayout(False)
         Me.ToolStrip2.PerformLayout()
-        Me.GroupBox3.ResumeLayout(False)
-        Me.GroupBox3.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -549,14 +498,10 @@ Partial Class frm_cadastro
     Friend WithEvents txt_busca As ToolStripTextBox
     Friend WithEvents ToolStripLabel2 As ToolStripLabel
     Friend WithEvents cmb_tipo As ToolStripComboBox
-    Friend WithEvents GroupBox3 As GroupBox
-    Friend WithEvents txt_usuario As TextBox
-    Friend WithEvents btn_sair As Button
-    Friend WithEvents btn_entrar As Button
-    Friend WithEvents chk_box As CheckBox
-    Friend WithEvents Senha As Label
-    Friend WithEvents Usuario As Label
-    Friend WithEvents txt_senha_login As MaskedTextBox
+    Friend WithEvents txt_status As TextBox
+    Friend WithEvents Label9 As Label
+    Friend WithEvents txt_ultimo_login As TextBox
+    Friend WithEvents Label10 As Label
     Friend WithEvents dgv_id As DataGridViewTextBoxColumn
     Friend WithEvents dgv_usuario As DataGridViewTextBoxColumn
     Friend WithEvents dgv_nome As DataGridViewTextBoxColumn
@@ -564,6 +509,4 @@ Partial Class frm_cadastro
     Friend WithEvents dgv_cargo As DataGridViewTextBoxColumn
     Friend WithEvents dgv_editar As DataGridViewButtonColumn
     Friend WithEvents dgv_excluir As DataGridViewButtonColumn
-    Friend WithEvents dgv_status As DataGridViewButtonColumn
-    Friend WithEvents Column1 As DataGridViewTextBoxColumn
 End Class

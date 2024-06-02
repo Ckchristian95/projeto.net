@@ -94,3 +94,4 @@ C:\Users\gb10\Desktop\ProjetoSI\ProjetoFina\projeto.net\obj\Debug\projetoAdminCo
 C:\Users\gb10\Desktop\ProjetoSI\ProjetoFina\projeto.net\obj\Debug\projetoAdminContas.exe
 C:\Users\gb10\Desktop\ProjetoSI\ProjetoFina\projeto.net\obj\Debug\projetoAdminContas.xml
 C:\Users\gb10\Desktop\ProjetoSI\ProjetoFina\projeto.net\obj\Debug\projetoAdminContas.pdb
+D:\projetoAdminContas\obj\Debug\projetoAdminContas.frm_cadastro_produtos.resources

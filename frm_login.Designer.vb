@@ -40,7 +40,7 @@ Partial Class frm_login
         Me.btn_entrar.Margin = New System.Windows.Forms.Padding(0)
         Me.btn_entrar.Name = "btn_entrar"
         Me.btn_entrar.Size = New System.Drawing.Size(107, 41)
-        Me.btn_entrar.TabIndex = 0
+        Me.btn_entrar.TabIndex = 4
         Me.btn_entrar.Text = "Entrar"
         Me.btn_entrar.UseVisualStyleBackColor = False
         '
@@ -52,7 +52,7 @@ Partial Class frm_login
         Me.txt_senha.Margin = New System.Windows.Forms.Padding(2)
         Me.txt_senha.Name = "txt_senha"
         Me.txt_senha.Size = New System.Drawing.Size(173, 19)
-        Me.txt_senha.TabIndex = 1
+        Me.txt_senha.TabIndex = 2
         Me.txt_senha.UseSystemPasswordChar = True
         '
         'txt_usuario
@@ -61,7 +61,7 @@ Partial Class frm_login
         Me.txt_usuario.Margin = New System.Windows.Forms.Padding(2)
         Me.txt_usuario.Name = "txt_usuario"
         Me.txt_usuario.Size = New System.Drawing.Size(167, 20)
-        Me.txt_usuario.TabIndex = 2
+        Me.txt_usuario.TabIndex = 1
         '
         'Label1
         '
@@ -93,7 +93,7 @@ Partial Class frm_login
         Me.visualizar_senha.Margin = New System.Windows.Forms.Padding(2)
         Me.visualizar_senha.Name = "visualizar_senha"
         Me.visualizar_senha.Size = New System.Drawing.Size(118, 17)
-        Me.visualizar_senha.TabIndex = 5
+        Me.visualizar_senha.TabIndex = 3
         Me.visualizar_senha.Text = "Visualizar senha"
         Me.visualizar_senha.UseVisualStyleBackColor = True
         '

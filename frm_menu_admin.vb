@@ -88,7 +88,7 @@
         btn_relatorio.Enabled = False
         btn_logoff.Enabled = False
         btn_login.Enabled = True
-
+        Me.center_panel.Controls(0).Dispose()
 
     End Sub
 

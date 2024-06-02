@@ -40,7 +40,7 @@ create table tb_pedidos(
 	CPF_CLIENTE varchar(14) not null, 
 	NOME_PRODUTO varchar(120) not null, 
 	STATUS varchar(20) not null, 
-	DATA_COMPRA varchar(10), 
+	DATA_COMPRA varchar(50), 
 	QTDE_PEDIDO int not null, 
 	PRECO_VENDA numeric(10,2) not null, 
 	TOTAL_ITEM numeric(10,2) not null, 
