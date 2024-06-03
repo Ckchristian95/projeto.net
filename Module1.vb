@@ -14,7 +14,7 @@ Module Module1
     Sub conectar_banco()
 
         db = CreateObject("ADODB.Connection")
-        db.Open("Provider=SQLOLEDB;Data Source=DESKTOP-TU83IG2;Initial Catalog=db_colaboradores;trusted_connection=yes;")
+        db.Open("Provider=SQLOLEDB;Data Source=LENOVOCJNEWHOUS;Initial Catalog=db_colaboradores;trusted_connection=yes;")
         MsgBox("Conexão OK", MsgBoxStyle.Information + MsgBoxStyle.OkOnly, "AVISO")
 
     End Sub

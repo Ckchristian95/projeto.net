@@ -88,7 +88,10 @@
         btn_relatorio.Enabled = False
         btn_logoff.Enabled = False
         btn_login.Enabled = True
+        While Me.center_panel.Controls.Count > 0
+            Me.center_panel.Controls(0).Dispose()
 
+        End While
 
     End Sub
 
@@ -119,5 +122,29 @@
         nf.Show()
     End Sub
 
+    Private Sub btn_pedir_Click(sender As Object, e As EventArgs) Handles btn_pedir.Click
+        While Me.center_panel.Controls.Count > 0
+            Me.center_panel.Controls(0).Dispose()
 
+        End While
+
+        Dim nf As New frm_fazer_pedido With {.TopMost = False, .AutoSize = True}
+        nf.TopLevel = False
+        nf.Dock = DockStyle.Fill
+        Me.center_panel.Controls.Add(nf)
+        nf.Show()
+    End Sub
+
+    Private Sub btn_pedidos_Click(sender As Object, e As EventArgs) Handles btn_pedidos.Click
+        While Me.center_panel.Controls.Count > 0
+            Me.center_panel.Controls(0).Dispose()
+
+        End While
+
+        Dim nf As New frm_visualizar_pedidos With {.TopMost = False, .AutoSize = True}
+        nf.TopLevel = False
+        nf.Dock = DockStyle.Fill
+        Me.center_panel.Controls.Add(nf)
+        nf.Show()
+    End Sub
 End Class
