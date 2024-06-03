@@ -14,7 +14,7 @@ create table tb_funcionarios(
 	 STATUS varchar(20) not null
 	 );
 
-select * from tb_colaboradores;
+
 
 create table tb_clientes(
 	CPF_CLIENTE varchar(14) not null primary key,
@@ -44,9 +44,23 @@ create table tb_pedidos(
 	QTDE_PEDIDO int not null, 
 	PRECO_VENDA numeric(10,2) not null, 
 	TOTAL_ITEM numeric(10,2) not null, 
-	foreign key(CPF_FUNCIONARIO) references tb_funcionarios(CPF_FUNCIONARIO),
 	foreign key(CPF_CLIENTE) references tb_clientes(CPF_CLIENTE),
-	foreign key(NOME_PRODUTO) references tb_produtos(NOME_PRODUTO)
+	foreign key(CPF_FUNCIONARIO) references tb_funcionarios(CPF_FUNCIONARIO)
+
+	);
+
+create table tb_carrinho(
+	ID_PEDIDO int identity(1,1) not null primary key,
+	CPF_FUNCIONARIO varchar(14) not null, 
+	CPF_CLIENTE varchar(14) not null, 
+	NOME_PRODUTO varchar(120) not null, 
+	STATUS varchar(20) not null, 
+	DATA_COMPRA varchar(50), 
+	QTDE_PEDIDO int not null, 
+	PRECO_VENDA numeric(10,2) not null, 
+	TOTAL_ITEM numeric(10,2) not null, 
+	foreign key(CPF_CLIENTE) references tb_clientes(CPF_CLIENTE),
+	foreign key(CPF_FUNCIONARIO) references tb_funcionarios(CPF_FUNCIONARIO)
 
 	);
 

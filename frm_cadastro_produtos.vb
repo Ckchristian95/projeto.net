@@ -1,5 +1,7 @@
 ﻿Public Class frm_cadastro_produtos
     Private Sub frm_cadastro_produtos_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        cmb_tipo.Items.Add("ID")
+        cmb_tipo.Items.Add("NOME")
         carregar_dados()
     End Sub
 
@@ -34,7 +36,7 @@
             MsgBox("Produto atualizado com sucesso!", MsgBoxStyle.Information + MsgBoxStyle.OkOnly, "AVISO")
 
         Else
-            sql = "insert into tb_produtos(NOME_PRODUTO, PRECO_ATUAL, QTDE_ESTOQUE, ENCOMENDAS) values ('" & txt_nome_produto.Text & "', '" & txt_preco.Text & "', '" & txt_qtde_estoque.Text & "', '0')"
+            sql = "insert into tb_produtos(NOME_PRODUTO, PRECO_ATUAL, QTDE_ESTOQUE, ENCOMENDAS) values ('" & txt_nome_produto.Text & "', '" & txt_preco.Text.Replace(",", ".") & "', '" & txt_qtde_estoque.Text & "', '0')"
             rs = db.Execute(UCase(sql))
 
             MsgBox("Produto cadastrado com sucesso!", MsgBoxStyle.Information + MsgBoxStyle.OkOnly, "AVISO")
@@ -90,5 +92,22 @@
                 rs.MoveNext()
             Loop
         End With
+    End Sub
+
+    Private Sub txt_busca_TextChanged(sender As Object, e As EventArgs) Handles txt_busca.TextChanged
+        If cmb_tipo.Text = "" Then
+            Exit Sub
+        Else
+            sql = "select * from tb_produtos where " & cmb_tipo.Text & "_PRODUTO like '" & txt_busca.Text & "%';"
+            rs = db.Execute(UCase(sql))
+
+            With dgv_dados
+                .Rows.Clear()
+                Do While rs.EOF = False
+                    .Rows.Add(rs.Fields(0).Value, rs.Fields(1).Value, rs.Fields(2).Value, rs.Fields(3).Value, rs.Fields(4).Value, Nothing, Nothing)
+                    rs.MoveNext()
+                Loop
+            End With
+        End If
     End Sub
 End Class
