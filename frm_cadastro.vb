@@ -28,7 +28,7 @@ Public Class frm_cadastro
         Else
             sql = "insert into tb_funcionarios (NOME_FUNCIONARIO, CPF_FUNCIONARIO, CARGO,DATA_NASC,USUARIO,SENHA,EMAIL,ENDERECO,DATA_LOGIN, STATUS) values
                 ('" & txt_nome.Text & "','" & txt_cpf.Text & "','" & txt_cargo.Text & "','" & cmb_data_nasc.Text & "','" & txt_login.Text & "', " &
-                "'" & txt_senha.Text & "','" & txt_email.Text & "','" & txt_endereco.Text & "','" & DateAndTime.Now & "', 'ATIVADO')"
+                "'" & txt_senha.Text & "','" & txt_email.Text & "','" & txt_endereco.Text & "','" & DateAndTime.Now.ToShortDateString & "', 'ATIVADO')"
 
             rs = db.Execute(UCase(sql))
             MsgBox("Dados Salvos com sucesso!!", MsgBoxStyle.Information + MsgBoxStyle.OkOnly, "ATENÇÃO")

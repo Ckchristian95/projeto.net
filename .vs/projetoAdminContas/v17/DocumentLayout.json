@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Backup-Projeto\\ProjetoFinal.1.5\\projetoAdminContas\\",
+  "WorkspaceRootPath": "D:\\projetoAdminContas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|d:\\backup-projeto\\projetofinal.1.5\\projetoadmincontas\\frm_menu_admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|d:\\projetoadmincontas\\frm_fazer_pedido.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_fazer_pedido.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|d:\\projetoadmincontas\\frm_cadastro.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_cadastro.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|D:\\projetoAdminContas\\frm_menu_admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_menu_admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|D:\\Backup-Projeto\\ProjetoFinal.1.5\\projetoAdminContas\\frm_menu_admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|D:\\projetoAdminContas\\frm_menu_admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_menu_admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|D:\\Backup-Projeto\\ProjetoFinal.1.5\\projetoAdminContas\\frm_visualizar_pedidos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_visualizar_pedidos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|D:\\Backup-Projeto\\ProjetoFinal.1.5\\projetoAdminContas\\frm_fazer_pedido.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_fazer_pedido.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|D:\\Backup-Projeto\\ProjetoFinal.1.5\\projetoAdminContas\\frm_carrinho.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_carrinho.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,65 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frm_visualizar_pedidos.vb [Design]",
-              "DocumentMoniker": "D:\\Backup-Projeto\\ProjetoFinal.1.5\\projetoAdminContas\\frm_visualizar_pedidos.vb",
-              "RelativeDocumentMoniker": "frm_visualizar_pedidos.vb",
-              "ToolTip": "D:\\projetoAdminContas\\frm_visualizar_pedidos.vb [Design]",
-              "RelativeToolTip": "..\\..\\..\\projetoAdminContas\\frm_visualizar_pedidos.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-06-03T00:20:54.502Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frm_menu_admin.vb [Design]",
-              "DocumentMoniker": "D:\\Backup-Projeto\\ProjetoFinal.1.5\\projetoAdminContas\\frm_menu_admin.vb",
-              "RelativeDocumentMoniker": "frm_menu_admin.vb",
-              "ToolTip": "D:\\Backup-Projeto\\ProjetoFinal.1.5\\projetoAdminContas\\frm_menu_admin.vb [Design]",
-              "RelativeToolTip": "frm_menu_admin.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-06-03T00:20:06.037Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frm_menu_admin.vb",
-              "DocumentMoniker": "D:\\Backup-Projeto\\ProjetoFinal.1.5\\projetoAdminContas\\frm_menu_admin.vb",
-              "RelativeDocumentMoniker": "frm_menu_admin.vb",
-              "ToolTip": "D:\\Backup-Projeto\\ProjetoFinal.1.5\\projetoAdminContas\\frm_menu_admin.vb",
-              "RelativeToolTip": "frm_menu_admin.vb",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAlwF0AAAARAAAA",
+              "Title": "frm_fazer_pedido.vb",
+              "DocumentMoniker": "D:\\projetoAdminContas\\frm_fazer_pedido.vb",
+              "RelativeDocumentMoniker": "frm_fazer_pedido.vb",
+              "ToolTip": "D:\\projetoAdminContas\\frm_fazer_pedido.vb*",
+              "RelativeToolTip": "frm_fazer_pedido.vb*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-06-03T00:12:59.325Z",
+              "WhenOpened": "2024-06-05T17:07:16.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frm_carrinho.vb [Design]",
-              "DocumentMoniker": "D:\\Backup-Projeto\\ProjetoFinal.1.5\\projetoAdminContas\\frm_carrinho.vb",
-              "RelativeDocumentMoniker": "frm_carrinho.vb",
-              "ToolTip": "D:\\projetoAdminContas\\frm_carrinho.vb [Design]",
-              "RelativeToolTip": "..\\..\\..\\projetoAdminContas\\frm_carrinho.vb [Design]",
+              "DocumentIndex": 1,
+              "Title": "frm_cadastro.vb",
+              "DocumentMoniker": "D:\\projetoAdminContas\\frm_cadastro.vb",
+              "RelativeDocumentMoniker": "frm_cadastro.vb",
+              "ToolTip": "D:\\projetoAdminContas\\frm_cadastro.vb",
+              "RelativeToolTip": "frm_cadastro.vb",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAtwCAAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-06-02T23:56:44.856Z"
+              "WhenOpened": "2024-06-05T17:04:02.991Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "frm_fazer_pedido.vb [Design]",
-              "DocumentMoniker": "D:\\Backup-Projeto\\ProjetoFinal.1.5\\projetoAdminContas\\frm_fazer_pedido.vb",
-              "RelativeDocumentMoniker": "frm_fazer_pedido.vb",
-              "ToolTip": "D:\\projetoAdminContas\\frm_fazer_pedido.vb [Design]",
-              "RelativeToolTip": "..\\..\\..\\projetoAdminContas\\frm_fazer_pedido.vb [Design]",
+              "Title": "frm_menu_admin.vb [Design]",
+              "DocumentMoniker": "D:\\projetoAdminContas\\frm_menu_admin.vb",
+              "RelativeDocumentMoniker": "frm_menu_admin.vb",
+              "ToolTip": "D:\\projetoAdminContas\\frm_menu_admin.vb [Design]",
+              "RelativeToolTip": "frm_menu_admin.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-06-02T18:12:42.357Z"
+              "WhenOpened": "2024-06-03T00:20:06.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frm_menu_admin.vb",
+              "DocumentMoniker": "D:\\projetoAdminContas\\frm_menu_admin.vb",
+              "RelativeDocumentMoniker": "frm_menu_admin.vb",
+              "ToolTip": "D:\\projetoAdminContas\\frm_menu_admin.vb",
+              "RelativeToolTip": "frm_menu_admin.vb",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAlwF0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-03T00:12:59.325Z"
             }
           ]
         }

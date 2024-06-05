@@ -1,9 +1,9 @@
 drop table if exists tb_colaboradores;
 
 create table tb_funcionarios(
-	 ID_FUNCIONARIO int identity(1,1) not null primary key, 
+	 ID_FUNCIONARIO int identity(1,1) not null, 
 	 NOME_FUNCIONARIO varchar(80) not null, 
-	 CPF_FUNCIONARIO varchar(14) not null,
+	 CPF_FUNCIONARIO varchar(14) not null primary key,
 	 CARGO varchar(80) not null, 
 	 DATA_NASC varchar(10) not null, 
 	 USUARIO varchar(50) not null, 
