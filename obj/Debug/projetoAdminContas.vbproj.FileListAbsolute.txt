@@ -98,3 +98,6 @@ D:\projetoAdminContas\obj\Debug\projetoAdminContas.frm_cadastro_produtos.resourc
 D:\projetoAdminContas\obj\Debug\projetoAdminContas.frm_fazer_pedido.resources
 D:\projetoAdminContas\obj\Debug\projetoAdminContas.frm_carrinho.resources
 D:\projetoAdminContas\obj\Debug\projetoAdminContas.frm_visualizar_pedidos.resources
+C:\Users\gb10\Desktop\ProjetoSI\ProjetoFina\projeto.net\obj\Debug\projetoAdminContas.frm_carrinho.resources
+C:\Users\gb10\Desktop\ProjetoSI\ProjetoFina\projeto.net\obj\Debug\projetoAdminContas.frm_fazer_pedido.resources
+C:\Users\gb10\Desktop\ProjetoSI\ProjetoFina\projeto.net\obj\Debug\projetoAdminContas.frm_visualizar_pedidos.resources

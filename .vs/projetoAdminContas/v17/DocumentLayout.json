@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_fazer_pedido.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|d:\\projetoadmincontas\\frm_cadastro.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|D:\\projetoAdminContas\\frm_cadastro.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_cadastro.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
@@ -34,9 +34,9 @@
               "Title": "frm_fazer_pedido.vb",
               "DocumentMoniker": "D:\\projetoAdminContas\\frm_fazer_pedido.vb",
               "RelativeDocumentMoniker": "frm_fazer_pedido.vb",
-              "ToolTip": "D:\\projetoAdminContas\\frm_fazer_pedido.vb*",
-              "RelativeToolTip": "frm_fazer_pedido.vb*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAAAAAA",
+              "ToolTip": "D:\\projetoAdminContas\\frm_fazer_pedido.vb",
+              "RelativeToolTip": "frm_fazer_pedido.vb",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-06-05T17:07:16.217Z",
               "EditorCaption": ""
@@ -50,9 +50,8 @@
               "ToolTip": "D:\\projetoAdminContas\\frm_cadastro.vb",
               "RelativeToolTip": "frm_cadastro.vb",
               "ViewState": "AQIAAAkAAAAAAAAAAAAtwCAAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-06-05T17:04:02.991Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-05T17:04:02.991Z"
             },
             {
               "$type": "Document",

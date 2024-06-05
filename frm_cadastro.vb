@@ -19,7 +19,7 @@ Public Class frm_cadastro
                                              "SENHA = '" & txt_senha.Text & "', " &
                                              "EMAIL = '" & txt_email.Text & "', " &
                                              "ENDERECO = '" & txt_endereco.Text & "', " &
-                                             "DATA_LOGIN = '" & DateAndTime.Now & "', " &
+                                             "DATA_LOGIN = '" & Date.Now.ToShortDateString & "', " &
                                              "STATUS = '" & txt_status.Text & "' where CPF_FUNCIONARIO= '" & txt_cpf.Text & "'"
 
             db.Execute(UCase(sql))
