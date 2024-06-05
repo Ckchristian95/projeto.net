@@ -1,26 +1,74 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Backup-Projeto\\ProjetoFinal.1.5\\projetoAdminContas\\",
+  "WorkspaceRootPath": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|d:\\backup-projeto\\projetofinal.1.5\\projetoadmincontas\\frm_menu_admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_menu_admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|c:\\users\\gb10\\desktop\\projetosi\\projetofina\\projeto.net\\frm_visualizar_pedidos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_visualizar_pedidos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|D:\\Backup-Projeto\\ProjetoFinal.1.5\\projetoAdminContas\\frm_menu_admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_menu_admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|D:\\Backup-Projeto\\ProjetoFinal.1.5\\projetoAdminContas\\frm_visualizar_pedidos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_visualizar_pedidos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_visualizar_pedidos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|D:\\Backup-Projeto\\ProjetoFinal.1.5\\projetoAdminContas\\frm_fazer_pedido.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|c:\\users\\gb10\\desktop\\projetosi\\projetofina\\projeto.net\\frm_fazer_pedido.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_fazer_pedido.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_carrinho.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_carrinho.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|c:\\users\\gb10\\desktop\\projetosi\\projetofina\\projeto.net\\module1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:module1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|c:\\users\\gb10\\desktop\\projetosi\\projetofina\\projeto.net\\frm_cadastro.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_cadastro.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|c:\\users\\gb10\\desktop\\projetosi\\projetofina\\projeto.net\\frm_login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|c:\\users\\gb10\\desktop\\projetosi\\projetofina\\projeto.net\\frm_carrinho.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_carrinho.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_fazer_pedido.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_fazer_pedido.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|D:\\Backup-Projeto\\ProjetoFinal.1.5\\projetoAdminContas\\frm_carrinho.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_carrinho.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|c:\\users\\gb10\\desktop\\projetosi\\projetofina\\projeto.net\\frm_login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|c:\\users\\gb10\\desktop\\projetosi\\projetofina\\projeto.net\\frm_cadastro.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_cadastro.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|c:\\users\\gb10\\desktop\\projetosi\\projetofina\\projeto.net\\frm_cadastro_clientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_cadastro_clientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|c:\\users\\gb10\\desktop\\projetosi\\projetofina\\projeto.net\\frm_cadastro_produtos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_cadastro_produtos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_menu_admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_menu_admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|c:\\users\\gb10\\desktop\\projetosi\\projetofina\\projeto.net\\frm_menu_admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_menu_admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|c:\\users\\gb10\\desktop\\projetosi\\projetofina\\projeto.net\\frm_cadastro_clientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_cadastro_clientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|c:\\users\\gb10\\desktop\\projetosi\\projetofina\\projeto.net\\frm_cadastro_produtos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F3A0F049-B59D-4983-97E2-E35855FE55A7}|projetoAdminContas.vbproj|solutionrelative:frm_cadastro_produtos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,26 +78,178 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frm_visualizar_pedidos.vb [Design]",
-              "DocumentMoniker": "D:\\Backup-Projeto\\ProjetoFinal.1.5\\projetoAdminContas\\frm_visualizar_pedidos.vb",
-              "RelativeDocumentMoniker": "frm_visualizar_pedidos.vb",
-              "ToolTip": "D:\\projetoAdminContas\\frm_visualizar_pedidos.vb [Design]",
-              "RelativeToolTip": "..\\..\\..\\projetoAdminContas\\frm_visualizar_pedidos.vb [Design]",
+              "DocumentIndex": 4,
+              "Title": "Module1.vb",
+              "DocumentMoniker": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\Module1.vb",
+              "RelativeDocumentMoniker": "Module1.vb",
+              "ToolTip": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\Module1.vb",
+              "RelativeToolTip": "Module1.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-06-03T00:20:54.502Z"
+              "WhenOpened": "2024-06-04T00:32:16.68Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frm_visualizar_pedidos.vb",
+              "DocumentMoniker": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_visualizar_pedidos.vb",
+              "RelativeDocumentMoniker": "frm_visualizar_pedidos.vb",
+              "ToolTip": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_visualizar_pedidos.vb",
+              "RelativeToolTip": "frm_visualizar_pedidos.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-05T01:56:51.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frm_cadastro.vb",
+              "DocumentMoniker": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_cadastro.vb",
+              "RelativeDocumentMoniker": "frm_cadastro.vb",
+              "ToolTip": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_cadastro.vb",
+              "RelativeToolTip": "frm_cadastro.vb",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAowBUAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-04T21:57:37.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frm_login.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_login.vb",
+              "RelativeDocumentMoniker": "frm_login.vb",
+              "ToolTip": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_login.vb [Design]",
+              "RelativeToolTip": "frm_login.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-04T21:57:32.675Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frm_carrinho.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_carrinho.vb",
+              "RelativeDocumentMoniker": "frm_carrinho.vb",
+              "ToolTip": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_carrinho.vb [Design]",
+              "RelativeToolTip": "frm_carrinho.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-02T23:56:44.856Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frm_fazer_pedido.vb",
+              "DocumentMoniker": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_fazer_pedido.vb",
+              "RelativeDocumentMoniker": "frm_fazer_pedido.vb",
+              "ToolTip": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_fazer_pedido.vb",
+              "RelativeToolTip": "frm_fazer_pedido.vb",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAADgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-04T00:34:02.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frm_carrinho.vb",
+              "DocumentMoniker": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_carrinho.vb",
+              "RelativeDocumentMoniker": "frm_carrinho.vb",
+              "ToolTip": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_carrinho.vb",
+              "RelativeToolTip": "frm_carrinho.vb",
+              "ViewState": "AQIAAAcAAAAAAAAAAAD4vw8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-04T21:58:19.462Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "frm_visualizar_pedidos.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_visualizar_pedidos.vb",
+              "RelativeDocumentMoniker": "frm_visualizar_pedidos.vb",
+              "ToolTip": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_visualizar_pedidos.vb [Design]",
+              "RelativeToolTip": "frm_visualizar_pedidos.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-03T00:20:54.502Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frm_fazer_pedido.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_fazer_pedido.vb",
+              "RelativeDocumentMoniker": "frm_fazer_pedido.vb",
+              "ToolTip": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_fazer_pedido.vb [Design]",
+              "RelativeToolTip": "frm_fazer_pedido.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-02T18:12:42.357Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frm_login.vb",
+              "DocumentMoniker": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_login.vb",
+              "RelativeDocumentMoniker": "frm_login.vb",
+              "ToolTip": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_login.vb",
+              "RelativeToolTip": "frm_login.vb",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-04T22:43:01.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frm_cadastro.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_cadastro.vb",
+              "RelativeDocumentMoniker": "frm_cadastro.vb",
+              "ToolTip": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_cadastro.vb [Design]",
+              "RelativeToolTip": "frm_cadastro.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-04T21:57:34.965Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frm_cadastro_clientes.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_cadastro_clientes.vb",
+              "RelativeDocumentMoniker": "frm_cadastro_clientes.vb",
+              "ToolTip": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_cadastro_clientes.vb [Design]",
+              "RelativeToolTip": "frm_cadastro_clientes.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-04T22:02:09.196Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frm_cadastro_produtos.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_cadastro_produtos.vb",
+              "RelativeDocumentMoniker": "frm_cadastro_produtos.vb",
+              "ToolTip": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_cadastro_produtos.vb [Design]",
+              "RelativeToolTip": "frm_cadastro_produtos.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-04T21:57:28.05Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "frm_menu_admin.vb [Design]",
-              "DocumentMoniker": "D:\\Backup-Projeto\\ProjetoFinal.1.5\\projetoAdminContas\\frm_menu_admin.vb",
+              "DocumentMoniker": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_menu_admin.vb",
               "RelativeDocumentMoniker": "frm_menu_admin.vb",
-              "ToolTip": "D:\\Backup-Projeto\\ProjetoFinal.1.5\\projetoAdminContas\\frm_menu_admin.vb [Design]",
+              "ToolTip": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_menu_admin.vb [Design]",
               "RelativeToolTip": "frm_menu_admin.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-06-03T00:20:06.037Z",
@@ -57,38 +257,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 14,
               "Title": "frm_menu_admin.vb",
-              "DocumentMoniker": "D:\\Backup-Projeto\\ProjetoFinal.1.5\\projetoAdminContas\\frm_menu_admin.vb",
+              "DocumentMoniker": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_menu_admin.vb",
               "RelativeDocumentMoniker": "frm_menu_admin.vb",
-              "ToolTip": "D:\\Backup-Projeto\\ProjetoFinal.1.5\\projetoAdminContas\\frm_menu_admin.vb",
+              "ToolTip": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_menu_admin.vb",
               "RelativeToolTip": "frm_menu_admin.vb",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAlwF0AAAARAAAA",
+              "ViewState": "AQIAAG8AAAAAAAAAAAA3wH0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-06-03T00:12:59.325Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frm_carrinho.vb [Design]",
-              "DocumentMoniker": "D:\\Backup-Projeto\\ProjetoFinal.1.5\\projetoAdminContas\\frm_carrinho.vb",
-              "RelativeDocumentMoniker": "frm_carrinho.vb",
-              "ToolTip": "D:\\projetoAdminContas\\frm_carrinho.vb [Design]",
-              "RelativeToolTip": "..\\..\\..\\projetoAdminContas\\frm_carrinho.vb [Design]",
+              "DocumentIndex": 15,
+              "Title": "frm_cadastro_clientes.vb",
+              "DocumentMoniker": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_cadastro_clientes.vb",
+              "RelativeDocumentMoniker": "frm_cadastro_clientes.vb",
+              "ToolTip": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_cadastro_clientes.vb",
+              "RelativeToolTip": "frm_cadastro_clientes.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-06-02T23:56:44.856Z"
+              "WhenOpened": "2024-06-04T22:02:10.233Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frm_fazer_pedido.vb [Design]",
-              "DocumentMoniker": "D:\\Backup-Projeto\\ProjetoFinal.1.5\\projetoAdminContas\\frm_fazer_pedido.vb",
-              "RelativeDocumentMoniker": "frm_fazer_pedido.vb",
-              "ToolTip": "D:\\projetoAdminContas\\frm_fazer_pedido.vb [Design]",
-              "RelativeToolTip": "..\\..\\..\\projetoAdminContas\\frm_fazer_pedido.vb [Design]",
+              "DocumentIndex": 16,
+              "Title": "frm_cadastro_produtos.vb",
+              "DocumentMoniker": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_cadastro_produtos.vb",
+              "RelativeDocumentMoniker": "frm_cadastro_produtos.vb",
+              "ToolTip": "C:\\Users\\gb10\\Desktop\\ProjetoSI\\ProjetoFina\\projeto.net\\frm_cadastro_produtos.vb",
+              "RelativeToolTip": "frm_cadastro_produtos.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwB8AAABiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-06-02T18:12:42.357Z"
+              "WhenOpened": "2024-06-04T22:02:40.579Z",
+              "EditorCaption": ""
             }
           ]
         }

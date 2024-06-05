@@ -29,7 +29,7 @@ Partial Class frm_carrinho
         Me.txt_busca = New System.Windows.Forms.ToolStripTextBox()
         Me.ToolStripLabel2 = New System.Windows.Forms.ToolStripLabel()
         Me.cmb_tipo = New System.Windows.Forms.ToolStripComboBox()
-        Me.dgv_dados = New System.Windows.Forms.DataGridView()
+        Me.dgv_dados_carrinho = New System.Windows.Forms.DataGridView()
         Me.dgv_id = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgv_nome = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgv_cpf = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -39,13 +39,13 @@ Partial Class frm_carrinho
         Me.btn_voltar = New System.Windows.Forms.Button()
         Me.GroupBox2.SuspendLayout()
         Me.ToolStrip2.SuspendLayout()
-        CType(Me.dgv_dados, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dgv_dados_carrinho, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.ToolStrip2)
-        Me.GroupBox2.Controls.Add(Me.dgv_dados)
+        Me.GroupBox2.Controls.Add(Me.dgv_dados_carrinho)
         Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox2.Location = New System.Drawing.Point(11, 11)
         Me.GroupBox2.Margin = New System.Windows.Forms.Padding(2)
@@ -89,18 +89,18 @@ Partial Class frm_carrinho
         Me.cmb_tipo.Name = "cmb_tipo"
         Me.cmb_tipo.Size = New System.Drawing.Size(82, 25)
         '
-        'dgv_dados
+        'dgv_dados_carrinho
         '
-        Me.dgv_dados.AllowUserToAddRows = False
-        Me.dgv_dados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgv_dados.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgv_id, Me.dgv_nome, Me.dgv_cpf, Me.Column1, Me.dgv_editar})
-        Me.dgv_dados.Location = New System.Drawing.Point(4, 45)
-        Me.dgv_dados.Margin = New System.Windows.Forms.Padding(2)
-        Me.dgv_dados.Name = "dgv_dados"
-        Me.dgv_dados.RowHeadersWidth = 62
-        Me.dgv_dados.RowTemplate.Height = 28
-        Me.dgv_dados.Size = New System.Drawing.Size(796, 313)
-        Me.dgv_dados.TabIndex = 0
+        Me.dgv_dados_carrinho.AllowUserToAddRows = False
+        Me.dgv_dados_carrinho.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgv_dados_carrinho.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgv_id, Me.dgv_nome, Me.dgv_cpf, Me.Column1, Me.dgv_editar})
+        Me.dgv_dados_carrinho.Location = New System.Drawing.Point(4, 45)
+        Me.dgv_dados_carrinho.Margin = New System.Windows.Forms.Padding(2)
+        Me.dgv_dados_carrinho.Name = "dgv_dados_carrinho"
+        Me.dgv_dados_carrinho.RowHeadersWidth = 62
+        Me.dgv_dados_carrinho.RowTemplate.Height = 28
+        Me.dgv_dados_carrinho.Size = New System.Drawing.Size(796, 313)
+        Me.dgv_dados_carrinho.TabIndex = 0
         '
         'dgv_id
         '
@@ -172,7 +172,7 @@ Partial Class frm_carrinho
         Me.GroupBox2.PerformLayout()
         Me.ToolStrip2.ResumeLayout(False)
         Me.ToolStrip2.PerformLayout()
-        CType(Me.dgv_dados, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dgv_dados_carrinho, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -183,7 +183,7 @@ Partial Class frm_carrinho
     Friend WithEvents txt_busca As ToolStripTextBox
     Friend WithEvents ToolStripLabel2 As ToolStripLabel
     Friend WithEvents cmb_tipo As ToolStripComboBox
-    Friend WithEvents dgv_dados As DataGridView
+    Friend WithEvents dgv_dados_carrinho As DataGridView
     Friend WithEvents dgv_id As DataGridViewTextBoxColumn
     Friend WithEvents dgv_nome As DataGridViewTextBoxColumn
     Friend WithEvents dgv_cpf As DataGridViewTextBoxColumn
