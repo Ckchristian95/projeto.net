@@ -64,10 +64,10 @@
         btn_pedidos.Enabled = False
         btn_pedir.Enabled = False
         btn_cadastrar_cliente.Enabled = False
-        btn_estoque.Enabled = False
+
         btn_cadastrar_produto.Enabled = False
         btn_cadastro_funcionario.Enabled = False
-        btn_relatorio.Enabled = False
+
         btn_logoff.Enabled = False
 
 
@@ -82,10 +82,10 @@
         btn_pedidos.Enabled = False
         btn_pedir.Enabled = False
         btn_cadastrar_cliente.Enabled = False
-        btn_estoque.Enabled = False
+
         btn_cadastrar_produto.Enabled = False
         btn_cadastro_funcionario.Enabled = False
-        btn_relatorio.Enabled = False
+
         btn_logoff.Enabled = False
         btn_login.Enabled = True
         While Me.center_panel.Controls.Count > 0
@@ -147,4 +147,6 @@
         Me.center_panel.Controls.Add(nf)
         nf.Show()
     End Sub
+
+
 End Class

@@ -30,13 +30,16 @@ Partial Class frm_carrinho
         Me.ToolStripLabel2 = New System.Windows.Forms.ToolStripLabel()
         Me.cmb_tipo = New System.Windows.Forms.ToolStripComboBox()
         Me.dgv_dados_carrinho = New System.Windows.Forms.DataGridView()
+        Me.btn_finalizar_pedido = New System.Windows.Forms.Button()
+        Me.btn_voltar = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.txt_total = New System.Windows.Forms.Label()
         Me.dgv_id = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgv_nome = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgv_cpf = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgv_editar = New System.Windows.Forms.DataGridViewButtonColumn()
-        Me.btn_finalizar_pedido = New System.Windows.Forms.Button()
-        Me.btn_voltar = New System.Windows.Forms.Button()
         Me.GroupBox2.SuspendLayout()
         Me.ToolStrip2.SuspendLayout()
         CType(Me.dgv_dados_carrinho, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -93,7 +96,7 @@ Partial Class frm_carrinho
         '
         Me.dgv_dados_carrinho.AllowUserToAddRows = False
         Me.dgv_dados_carrinho.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgv_dados_carrinho.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgv_id, Me.dgv_nome, Me.dgv_cpf, Me.Column1, Me.dgv_editar})
+        Me.dgv_dados_carrinho.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgv_id, Me.dgv_nome, Me.dgv_cpf, Me.Column1, Me.Column2, Me.dgv_editar})
         Me.dgv_dados_carrinho.Location = New System.Drawing.Point(4, 45)
         Me.dgv_dados_carrinho.Margin = New System.Windows.Forms.Padding(2)
         Me.dgv_dados_carrinho.Name = "dgv_dados_carrinho"
@@ -101,6 +104,49 @@ Partial Class frm_carrinho
         Me.dgv_dados_carrinho.RowTemplate.Height = 28
         Me.dgv_dados_carrinho.Size = New System.Drawing.Size(796, 313)
         Me.dgv_dados_carrinho.TabIndex = 0
+        '
+        'btn_finalizar_pedido
+        '
+        Me.btn_finalizar_pedido.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_finalizar_pedido.Image = CType(resources.GetObject("btn_finalizar_pedido.Image"), System.Drawing.Image)
+        Me.btn_finalizar_pedido.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.btn_finalizar_pedido.Location = New System.Drawing.Point(679, 403)
+        Me.btn_finalizar_pedido.Name = "btn_finalizar_pedido"
+        Me.btn_finalizar_pedido.Size = New System.Drawing.Size(136, 62)
+        Me.btn_finalizar_pedido.TabIndex = 26
+        Me.btn_finalizar_pedido.Text = "FINALIZAR " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PEDIDO"
+        Me.btn_finalizar_pedido.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btn_finalizar_pedido.UseVisualStyleBackColor = True
+        '
+        'btn_voltar
+        '
+        Me.btn_voltar.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_voltar.Location = New System.Drawing.Point(516, 403)
+        Me.btn_voltar.Name = "btn_voltar"
+        Me.btn_voltar.Size = New System.Drawing.Size(136, 62)
+        Me.btn_voltar.TabIndex = 27
+        Me.btn_voltar.Text = "VOLTAR"
+        Me.btn_voltar.UseVisualStyleBackColor = True
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(32, 384)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(151, 24)
+        Me.Label1.TabIndex = 28
+        Me.Label1.Text = "TOTAL GERAL"
+        '
+        'txt_total
+        '
+        Me.txt_total.AutoSize = True
+        Me.txt_total.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_total.Location = New System.Drawing.Point(33, 419)
+        Me.txt_total.Name = "txt_total"
+        Me.txt_total.Size = New System.Drawing.Size(101, 31)
+        Me.txt_total.TabIndex = 29
+        Me.txt_total.Text = "Label2"
         '
         'dgv_id
         '
@@ -126,6 +172,11 @@ Partial Class frm_carrinho
         Me.Column1.HeaderText = "QTDE"
         Me.Column1.Name = "Column1"
         '
+        'Column2
+        '
+        Me.Column2.HeaderText = "TOTAL ITEM"
+        Me.Column2.Name = "Column2"
+        '
         'dgv_editar
         '
         Me.dgv_editar.HeaderText = "EXCLUIR"
@@ -133,34 +184,13 @@ Partial Class frm_carrinho
         Me.dgv_editar.Name = "dgv_editar"
         Me.dgv_editar.Width = 120
         '
-        'btn_finalizar_pedido
-        '
-        Me.btn_finalizar_pedido.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_finalizar_pedido.Image = CType(resources.GetObject("btn_finalizar_pedido.Image"), System.Drawing.Image)
-        Me.btn_finalizar_pedido.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btn_finalizar_pedido.Location = New System.Drawing.Point(679, 403)
-        Me.btn_finalizar_pedido.Name = "btn_finalizar_pedido"
-        Me.btn_finalizar_pedido.Size = New System.Drawing.Size(136, 62)
-        Me.btn_finalizar_pedido.TabIndex = 26
-        Me.btn_finalizar_pedido.Text = "FINALIZAR " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PEDIDO"
-        Me.btn_finalizar_pedido.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_finalizar_pedido.UseVisualStyleBackColor = True
-        '
-        'btn_voltar
-        '
-        Me.btn_voltar.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_voltar.Location = New System.Drawing.Point(516, 403)
-        Me.btn_voltar.Name = "btn_voltar"
-        Me.btn_voltar.Size = New System.Drawing.Size(136, 62)
-        Me.btn_voltar.TabIndex = 27
-        Me.btn_voltar.Text = "VOLTAR"
-        Me.btn_voltar.UseVisualStyleBackColor = True
-        '
         'frm_carrinho
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(823, 482)
+        Me.Controls.Add(Me.txt_total)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btn_voltar)
         Me.Controls.Add(Me.btn_finalizar_pedido)
         Me.Controls.Add(Me.GroupBox2)
@@ -174,6 +204,7 @@ Partial Class frm_carrinho
         Me.ToolStrip2.PerformLayout()
         CType(Me.dgv_dados_carrinho, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -184,11 +215,14 @@ Partial Class frm_carrinho
     Friend WithEvents ToolStripLabel2 As ToolStripLabel
     Friend WithEvents cmb_tipo As ToolStripComboBox
     Friend WithEvents dgv_dados_carrinho As DataGridView
+    Friend WithEvents btn_finalizar_pedido As Button
+    Friend WithEvents btn_voltar As Button
+    Friend WithEvents Label1 As Label
+    Friend WithEvents txt_total As Label
     Friend WithEvents dgv_id As DataGridViewTextBoxColumn
     Friend WithEvents dgv_nome As DataGridViewTextBoxColumn
     Friend WithEvents dgv_cpf As DataGridViewTextBoxColumn
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
+    Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents dgv_editar As DataGridViewButtonColumn
-    Friend WithEvents btn_finalizar_pedido As Button
-    Friend WithEvents btn_voltar As Button
 End Class

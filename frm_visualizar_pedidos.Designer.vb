@@ -30,9 +30,10 @@ Partial Class frm_visualizar_pedidos
         Me.cmb_tipo = New System.Windows.Forms.ToolStripComboBox()
         Me.dgv_dados = New System.Windows.Forms.DataGridView()
         Me.dgv_id = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgv_nome = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgv_cpf = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgv_nome = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgv_total = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgv_status = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgv_editar = New System.Windows.Forms.DataGridViewButtonColumn()
         Me.GroupBox2.SuspendLayout()
         Me.ToolStrip2.SuspendLayout()
@@ -90,7 +91,7 @@ Partial Class frm_visualizar_pedidos
         '
         Me.dgv_dados.AllowUserToAddRows = False
         Me.dgv_dados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgv_dados.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgv_id, Me.dgv_nome, Me.dgv_cpf, Me.Column1, Me.dgv_editar})
+        Me.dgv_dados.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgv_id, Me.dgv_cpf, Me.dgv_nome, Me.dgv_total, Me.dgv_status, Me.dgv_editar})
         Me.dgv_dados.Location = New System.Drawing.Point(4, 45)
         Me.dgv_dados.Margin = New System.Windows.Forms.Padding(2)
         Me.dgv_dados.Name = "dgv_dados"
@@ -106,22 +107,27 @@ Partial Class frm_visualizar_pedidos
         Me.dgv_id.Name = "dgv_id"
         Me.dgv_id.Width = 50
         '
+        'dgv_cpf
+        '
+        Me.dgv_cpf.HeaderText = "CPF CLIENTE"
+        Me.dgv_cpf.Name = "dgv_cpf"
+        '
         'dgv_nome
         '
-        Me.dgv_nome.HeaderText = "NOME"
+        Me.dgv_nome.HeaderText = "NOME PRODUTO"
         Me.dgv_nome.MinimumWidth = 8
         Me.dgv_nome.Name = "dgv_nome"
         Me.dgv_nome.Width = 150
         '
-        'dgv_cpf
+        'dgv_total
         '
-        Me.dgv_cpf.HeaderText = "PREÇO"
-        Me.dgv_cpf.Name = "dgv_cpf"
+        Me.dgv_total.HeaderText = "TOTAL ITEM"
+        Me.dgv_total.Name = "dgv_total"
         '
-        'Column1
+        'dgv_status
         '
-        Me.Column1.HeaderText = "QTDE ESTOQUE"
-        Me.Column1.Name = "Column1"
+        Me.dgv_status.HeaderText = "STATUS"
+        Me.dgv_status.Name = "dgv_status"
         '
         'dgv_editar
         '
@@ -156,8 +162,9 @@ Partial Class frm_visualizar_pedidos
     Friend WithEvents cmb_tipo As ToolStripComboBox
     Friend WithEvents dgv_dados As DataGridView
     Friend WithEvents dgv_id As DataGridViewTextBoxColumn
-    Friend WithEvents dgv_nome As DataGridViewTextBoxColumn
     Friend WithEvents dgv_cpf As DataGridViewTextBoxColumn
-    Friend WithEvents Column1 As DataGridViewTextBoxColumn
+    Friend WithEvents dgv_nome As DataGridViewTextBoxColumn
+    Friend WithEvents dgv_total As DataGridViewTextBoxColumn
+    Friend WithEvents dgv_status As DataGridViewTextBoxColumn
     Friend WithEvents dgv_editar As DataGridViewButtonColumn
 End Class

@@ -24,6 +24,8 @@ Partial Class frm_cadastro_produtos
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frm_cadastro_produtos))
         Me.gb_1 = New System.Windows.Forms.GroupBox()
+        Me.txt_id = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.btn_gravar = New System.Windows.Forms.ToolStripButton()
         Me.txt_nome_produto = New System.Windows.Forms.TextBox()
@@ -46,8 +48,6 @@ Partial Class frm_cadastro_produtos
         Me.dgv_cargo = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgv_editar = New System.Windows.Forms.DataGridViewButtonColumn()
         Me.dgv_excluir = New System.Windows.Forms.DataGridViewButtonColumn()
-        Me.txt_id = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.gb_1.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -75,6 +75,27 @@ Partial Class frm_cadastro_produtos
         Me.gb_1.TabIndex = 22
         Me.gb_1.TabStop = False
         Me.gb_1.Text = "CADASTRO DE PRODUTOS"
+        '
+        'txt_id
+        '
+        Me.txt_id.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_id.Location = New System.Drawing.Point(32, 73)
+        Me.txt_id.Margin = New System.Windows.Forms.Padding(2)
+        Me.txt_id.Name = "txt_id"
+        Me.txt_id.ReadOnly = True
+        Me.txt_id.Size = New System.Drawing.Size(55, 24)
+        Me.txt_id.TabIndex = 21
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(29, 57)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(20, 13)
+        Me.Label1.TabIndex = 22
+        Me.Label1.Text = "ID"
         '
         'ToolStrip1
         '
@@ -259,27 +280,6 @@ Partial Class frm_cadastro_produtos
         Me.dgv_excluir.MinimumWidth = 8
         Me.dgv_excluir.Name = "dgv_excluir"
         Me.dgv_excluir.Width = 120
-        '
-        'txt_id
-        '
-        Me.txt_id.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_id.Location = New System.Drawing.Point(32, 73)
-        Me.txt_id.Margin = New System.Windows.Forms.Padding(2)
-        Me.txt_id.Name = "txt_id"
-        Me.txt_id.ReadOnly = True
-        Me.txt_id.Size = New System.Drawing.Size(55, 24)
-        Me.txt_id.TabIndex = 21
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(29, 57)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(20, 13)
-        Me.Label1.TabIndex = 22
-        Me.Label1.Text = "ID"
         '
         'frm_cadastro_produtos
         '

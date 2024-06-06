@@ -36,6 +36,8 @@ Partial Class frm_fazer_pedido
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgv_editar = New System.Windows.Forms.DataGridViewButtonColumn()
         Me.gb_1 = New System.Windows.Forms.GroupBox()
+        Me.txt_cpf_cliente = New System.Windows.Forms.MaskedTextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.btn_ver_carrinho = New System.Windows.Forms.Button()
         Me.btn_adicionar_carrinho = New System.Windows.Forms.Button()
         Me.txt_id = New System.Windows.Forms.TextBox()
@@ -46,8 +48,6 @@ Partial Class frm_fazer_pedido
         Me.txt_qtde_estoque = New System.Windows.Forms.TextBox()
         Me.txt_preco = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.txt_cpf_cliente = New System.Windows.Forms.MaskedTextBox()
         Me.GroupBox2.SuspendLayout()
         Me.ToolStrip2.SuspendLayout()
         CType(Me.dgv_dados, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -169,6 +169,25 @@ Partial Class frm_fazer_pedido
         Me.gb_1.TabStop = False
         Me.gb_1.Text = "v"
         '
+        'txt_cpf_cliente
+        '
+        Me.txt_cpf_cliente.Location = New System.Drawing.Point(244, 97)
+        Me.txt_cpf_cliente.Mask = "000.000.000-00"
+        Me.txt_cpf_cliente.Name = "txt_cpf_cliente"
+        Me.txt_cpf_cliente.Size = New System.Drawing.Size(114, 23)
+        Me.txt_cpf_cliente.TabIndex = 27
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(241, 78)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(108, 13)
+        Me.Label4.TabIndex = 26
+        Me.Label4.Text = "CPF DO CLIENTE"
+        '
         'btn_ver_carrinho
         '
         Me.btn_ver_carrinho.Image = CType(resources.GetObject("btn_ver_carrinho.Image"), System.Drawing.Image)
@@ -275,25 +294,6 @@ Partial Class frm_fazer_pedido
         Me.Label3.Size = New System.Drawing.Size(49, 13)
         Me.Label3.TabIndex = 6
         Me.Label3.Text = "PREÇO"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(241, 78)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(108, 13)
-        Me.Label4.TabIndex = 26
-        Me.Label4.Text = "CPF DO CLIENTE"
-        '
-        'txt_cpf_cliente
-        '
-        Me.txt_cpf_cliente.Location = New System.Drawing.Point(244, 97)
-        Me.txt_cpf_cliente.Mask = "000.000.000-00"
-        Me.txt_cpf_cliente.Name = "txt_cpf_cliente"
-        Me.txt_cpf_cliente.Size = New System.Drawing.Size(236, 23)
-        Me.txt_cpf_cliente.TabIndex = 27
         '
         'frm_fazer_pedido
         '

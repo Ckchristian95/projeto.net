@@ -28,12 +28,24 @@
 
         If rs.EOF = False Then
 
+
+
             sql = "update tb_produtos set NOME_PRODUTO = '" & txt_nome_produto.Text & "', " &
                                               "PRECO_ATUAL = '" & txt_preco.Text.Replace(",", ".") & "', " &
                                               "QTDE_ESTOQUE = '" & txt_qtde_estoque.Text & "' where ID_PRODUTO = '" & txt_id.Text & "'"
             rs = db.Execute(UCase(sql))
 
             MsgBox("Produto atualizado com sucesso!", MsgBoxStyle.Information + MsgBoxStyle.OkOnly, "AVISO")
+
+
+            sql = "select * from tb_produtos where ID_PRODUTO = '" & txt_id.Text & "'"
+            rs = db.Execute(UCase(sql))
+
+            If rs.Fields(3).Value >= rs.Fields(4).Value Then
+                sql = "update tb_pedidos set STATUS = 'DISPONIVEL' where NOME_PRODUTO = '" & txt_nome_produto.Text & "' AND STATUS = 'PENDENTE';"
+                rs = db.Execute(sql)
+            End If
+
 
         Else
             sql = "insert into tb_produtos(NOME_PRODUTO, PRECO_ATUAL, QTDE_ESTOQUE, ENCOMENDAS) values ('" & txt_nome_produto.Text & "', '" & txt_preco.Text.Replace(",", ".") & "', '" & txt_qtde_estoque.Text & "', '0')"
@@ -56,6 +68,7 @@
             txt_nome_produto.Text = rs.Fields(1).Value
             txt_preco.Text = rs.Fields(2).Value
             txt_qtde_estoque.Text = rs.Fields(3).Value
+
 
 
 
@@ -110,4 +123,6 @@
             End With
         End If
     End Sub
+
+
 End Class

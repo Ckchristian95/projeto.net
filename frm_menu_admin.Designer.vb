@@ -27,9 +27,7 @@ Partial Class frm_menu_admin
         Me.left_panel = New System.Windows.Forms.Panel()
         Me.btn_cadastro_funcionario = New System.Windows.Forms.Button()
         Me.btn_logoff = New System.Windows.Forms.Button()
-        Me.btn_relatorio = New System.Windows.Forms.Button()
         Me.btn_cadastrar_produto = New System.Windows.Forms.Button()
-        Me.btn_estoque = New System.Windows.Forms.Button()
         Me.btn_cadastrar_cliente = New System.Windows.Forms.Button()
         Me.btn_pedir = New System.Windows.Forms.Button()
         Me.btn_pedidos = New System.Windows.Forms.Button()
@@ -37,22 +35,26 @@ Partial Class frm_menu_admin
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.menu_img = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.center_panel = New System.Windows.Forms.Panel()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.left_panel.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.menu_img, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'left_panel
         '
         Me.left_panel.BackColor = System.Drawing.SystemColors.Highlight
+        Me.left_panel.Controls.Add(Me.PictureBox1)
         Me.left_panel.Controls.Add(Me.btn_cadastro_funcionario)
         Me.left_panel.Controls.Add(Me.btn_logoff)
-        Me.left_panel.Controls.Add(Me.btn_relatorio)
         Me.left_panel.Controls.Add(Me.btn_cadastrar_produto)
-        Me.left_panel.Controls.Add(Me.btn_estoque)
         Me.left_panel.Controls.Add(Me.btn_cadastrar_cliente)
         Me.left_panel.Controls.Add(Me.btn_pedir)
         Me.left_panel.Controls.Add(Me.btn_pedidos)
@@ -72,7 +74,7 @@ Partial Class frm_menu_admin
         Me.btn_cadastro_funcionario.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_cadastro_funcionario.Image = CType(resources.GetObject("btn_cadastro_funcionario.Image"), System.Drawing.Image)
         Me.btn_cadastro_funcionario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_cadastro_funcionario.Location = New System.Drawing.Point(2, 474)
+        Me.btn_cadastro_funcionario.Location = New System.Drawing.Point(4, 420)
         Me.btn_cadastro_funcionario.Margin = New System.Windows.Forms.Padding(2)
         Me.btn_cadastro_funcionario.Name = "btn_cadastro_funcionario"
         Me.btn_cadastro_funcionario.Size = New System.Drawing.Size(149, 50)
@@ -88,7 +90,7 @@ Partial Class frm_menu_admin
         Me.btn_logoff.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_logoff.Image = CType(resources.GetObject("btn_logoff.Image"), System.Drawing.Image)
         Me.btn_logoff.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_logoff.Location = New System.Drawing.Point(2, 582)
+        Me.btn_logoff.Location = New System.Drawing.Point(4, 474)
         Me.btn_logoff.Margin = New System.Windows.Forms.Padding(2)
         Me.btn_logoff.Name = "btn_logoff"
         Me.btn_logoff.Size = New System.Drawing.Size(151, 50)
@@ -97,23 +99,6 @@ Partial Class frm_menu_admin
         Me.btn_logoff.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btn_logoff.UseVisualStyleBackColor = True
         '
-        'btn_relatorio
-        '
-        Me.btn_relatorio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_relatorio.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_relatorio.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_relatorio.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.btn_relatorio.Image = CType(resources.GetObject("btn_relatorio.Image"), System.Drawing.Image)
-        Me.btn_relatorio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_relatorio.Location = New System.Drawing.Point(0, 528)
-        Me.btn_relatorio.Margin = New System.Windows.Forms.Padding(2)
-        Me.btn_relatorio.Name = "btn_relatorio"
-        Me.btn_relatorio.Size = New System.Drawing.Size(151, 50)
-        Me.btn_relatorio.TabIndex = 10
-        Me.btn_relatorio.Text = "Gerar" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Relatório"
-        Me.btn_relatorio.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btn_relatorio.UseVisualStyleBackColor = True
-        '
         'btn_cadastrar_produto
         '
         Me.btn_cadastrar_produto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
@@ -121,7 +106,7 @@ Partial Class frm_menu_admin
         Me.btn_cadastrar_produto.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_cadastrar_produto.Image = CType(resources.GetObject("btn_cadastrar_produto.Image"), System.Drawing.Image)
         Me.btn_cadastrar_produto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_cadastrar_produto.Location = New System.Drawing.Point(2, 420)
+        Me.btn_cadastrar_produto.Location = New System.Drawing.Point(2, 366)
         Me.btn_cadastrar_produto.Margin = New System.Windows.Forms.Padding(2)
         Me.btn_cadastrar_produto.Name = "btn_cadastrar_produto"
         Me.btn_cadastrar_produto.Size = New System.Drawing.Size(151, 50)
@@ -129,22 +114,6 @@ Partial Class frm_menu_admin
         Me.btn_cadastrar_produto.Text = "Cadastrar " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Produto"
         Me.btn_cadastrar_produto.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btn_cadastrar_produto.UseVisualStyleBackColor = True
-        '
-        'btn_estoque
-        '
-        Me.btn_estoque.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_estoque.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_estoque.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_estoque.Image = CType(resources.GetObject("btn_estoque.Image"), System.Drawing.Image)
-        Me.btn_estoque.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_estoque.Location = New System.Drawing.Point(2, 366)
-        Me.btn_estoque.Margin = New System.Windows.Forms.Padding(2)
-        Me.btn_estoque.Name = "btn_estoque"
-        Me.btn_estoque.Size = New System.Drawing.Size(151, 50)
-        Me.btn_estoque.TabIndex = 8
-        Me.btn_estoque.Text = "Situação do " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "estoque"
-        Me.btn_estoque.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btn_estoque.UseVisualStyleBackColor = True
         '
         'btn_cadastrar_cliente
         '
@@ -234,21 +203,44 @@ Partial Class frm_menu_admin
         '
         'Panel1
         '
+        Me.Panel1.Controls.Add(Me.Label2)
+        Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(151, 0)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(580, 31)
+        Me.Panel1.Size = New System.Drawing.Size(580, 36)
         Me.Panel1.TabIndex = 2
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(192, 0)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(405, 32)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "NOME: Christian Fernandes do Carmo RA: 1680482321022" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "NOME: Gabriel Pereira Rodri" &
+    "gues RA: 1680482321020" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(3, 4)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(183, 25)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "STOCKMASTER"
         '
         'center_panel
         '
         Me.center_panel.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.center_panel.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.center_panel.Location = New System.Drawing.Point(151, 31)
+        Me.center_panel.Location = New System.Drawing.Point(151, 36)
         Me.center_panel.Margin = New System.Windows.Forms.Padding(2)
         Me.center_panel.Name = "center_panel"
-        Me.center_panel.Size = New System.Drawing.Size(580, 637)
+        Me.center_panel.Size = New System.Drawing.Size(580, 632)
         Me.center_panel.TabIndex = 3
         '
         'Timer1
@@ -258,6 +250,17 @@ Partial Class frm_menu_admin
         'Timer2
         '
         Me.Timer2.Interval = 1
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.LightCyan
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(2, 31)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(149, 120)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 12
+        Me.PictureBox1.TabStop = False
         '
         'frm_menu_admin
         '
@@ -276,6 +279,9 @@ Partial Class frm_menu_admin
         Me.left_panel.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         CType(Me.menu_img, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -289,11 +295,12 @@ Partial Class frm_menu_admin
     Friend WithEvents Panel2 As Panel
     Friend WithEvents menu_img As PictureBox
     Friend WithEvents btn_logoff As Button
-    Friend WithEvents btn_relatorio As Button
     Friend WithEvents btn_cadastrar_produto As Button
-    Friend WithEvents btn_estoque As Button
     Friend WithEvents btn_cadastrar_cliente As Button
     Friend WithEvents btn_pedir As Button
     Friend WithEvents btn_pedidos As Button
     Friend WithEvents btn_login As Button
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents PictureBox1 As PictureBox
 End Class
